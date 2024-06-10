@@ -1,9 +1,10 @@
 import React from "react";
+import "./Spinner.css"
 
 const Spinner = () => {
     return (
-        <div>
-            <div className="spinner"></div>
+        <div className=" flex justify-center items-center h-80">
+            <div className="loader"></div>
         </div>
     )
 };
